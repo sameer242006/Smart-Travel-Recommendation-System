@@ -20,6 +20,14 @@ into a single intelligent decision-support system.
 - Festival-based scoring bonus
 - Personalized travel type scoring
 - Interactive Streamlit dashboard
+## 🔐 Configuration Setup
+
+Before running the project:
+
+1. Create a folder named `config`
+2. Copy `credentials_example.json`
+3. Rename it to `credentials.json`
+4. Add your own API key and MySQL credentials
 
 ## 📂 Project Structure
 - app/ → Streamlit UI
