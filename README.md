@@ -1,34 +1,32 @@
-# Smart-Travel-Recommendation-System
-Smart Travel Recommendation System with Weather Prediction
-📌 Overview
-This project integrates weather forecasting, machine learning, distance calculation, and personalized travel scoring into a single intelligent decision-support system.
+# Smart Travel Recommendation System
 
-🛠 Technologies Used
-Python
-MySQL
-Scikit-learn
-Pandas
-Streamlit
-Visual Crossing Weather API
-OpenStreetMap Nominatim API
+## 📌 Overview
+This project integrates weather forecasting, machine learning, 
+distance calculation, and personalized travel scoring 
+into a single intelligent decision-support system.
 
-🔍 Features
-60-day AI weather forecasting
-Distance & travel time estimation
-Festival-based recommendation bonus
-Personalized travel type scoring
-Interactive Streamlit dashboard
+## 🛠 Technologies Used
+- Python
+- MySQL
+- Scikit-learn
+- Pandas
+- Streamlit
+- Visual Crossing Weather API
+- OpenStreetMap Nominatim API
 
-📊 Modules
-Weather Data Collection
-Machine Learning Prediction
-Distance Calculation
-Travel Recommendation Engine
-Streamlit UI
+## 🚀 Features
+- 60-day AI weather forecasting
+- Distance & travel time estimation
+- Festival-based scoring bonus
+- Personalized travel type scoring
+- Interactive Streamlit dashboard
 
-▶ How to Run
-1.Install dependencies:
+## 📂 Project Structure
+- app/ → Streamlit UI
+- ml_model/ → Prediction & scoring engine
+- scripts/ → Data collection scripts
+
+## ▶ How to Run
+```bash
 pip install -r requirements.txt
-2.Configure credentials.json
-3.Run:
-streamlit run app.py
+streamlit run app/app.py
