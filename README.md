@@ -30,3 +30,20 @@ into a single intelligent decision-support system.
 ```bash
 pip install -r requirements.txt
 streamlit run app/app.py
+```
+
+## 🏗 Project Architecture
+
+```
+Visual Crossing Weather API
+        ↓
+Data Collection Scripts (fetch_today_*.py)
+        ↓
+MySQL Database (weather_master, weather_data)
+        ↓
+Machine Learning Prediction Engine
+        ↓
+Travel Recommendation Engine
+        ↓
+Streamlit Web Dashboard
+```
